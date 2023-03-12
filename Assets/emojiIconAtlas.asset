@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5efe682ead7eb154f97508822f9d073c, type: 3}
+  m_Name: emojiIconAtlas
+  m_EditorClassIdentifier: 
+  Id: 3
+  IsStatic: 1
+  TexSource: {fileID: 2800000, guid: 3350ba9b6f21945f892c23d017dac0fe, type: 3}
+  Row: 2
+  Column: 2
+  Speed: 10
+  ListSpriteGroup:
+  - Tag: weapon_1
+    ListSpriteInfor:
+    - Id: 0
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 256
+        height: 256
+      DrawTexCoord:
+        serializedVersion: 2
+        x: 0
+        y: 0.5
+        width: 0.5
+        height: 0.5
+      Uv:
+      - {x: 0, y: 1}
+      - {x: 0.5, y: 1}
+      - {x: 0.5, y: 0.5}
+      - {x: 0, y: 0.5}
+    Width: 1
+    Size: 24
+  - Tag: weapon_2
+    ListSpriteInfor:
+    - Id: 1
+      Rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      DrawTexCoord:
+        serializedVersion: 2
+        x: 0.5
+        y: 0.5
+        width: 0.5
+        height: 0.5
+      Uv:
+      - {x: 0.5, y: 1}
+      - {x: 1, y: 1}
+      - {x: 1, y: 0.5}
+      - {x: 0.5, y: 0.5}
+    Width: 1
+    Size: 24
+  - Tag: weapon_3
+    ListSpriteInfor:
+    - Id: 2
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      DrawTexCoord:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0.5
+        height: 0.5
+      Uv:
+      - {x: 0, y: 0.5}
+      - {x: 0.5, y: 0.5}
+      - {x: 0.5, y: 0}
+      - {x: 0, y: 0}
+    Width: 1
+    Size: 24
+  - Tag: weapon_4
+    ListSpriteInfor:
+    - Id: 3
+      Rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 256
+      DrawTexCoord:
+        serializedVersion: 2
+        x: 0.5
+        y: 0
+        width: 0.5
+        height: 0.5
+      Uv:
+      - {x: 0.5, y: 0.5}
+      - {x: 1, y: 0.5}
+      - {x: 1, y: 0}
+      - {x: 0.5, y: 0}
+    Width: 1
+    Size: 24
